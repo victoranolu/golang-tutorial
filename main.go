@@ -90,3 +90,17 @@
 // 	fmt.Println(strings.Contains(str8, "police"))
 // 	fmt.Println(strings.Contains(str8, "floor"))
 // }
+
+package main
+
+import "fmt"
+
+func main() {
+	temperatureC := 32.0
+	temperatureK := 0.4
+
+	temperatureK = temperatureC + 273.16
+
+	fmt.Println("Temperature in Celcius", temperatureC)
+	fmt.Println("Temperature in Kelvin", temperatureK)
+}
