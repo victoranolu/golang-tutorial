@@ -36,7 +36,7 @@
 // 	wIndex := strings.Index(str1, "o")
 // 	substr := str1[wIndex:21]
 // 	fmt.Println(substr)
-// }
+// }                                string slicing  with the index on the starting with an number and an ending number
 
 // package main
 
@@ -53,3 +53,40 @@
 // 	fmt.Println(strings.EqualFold(str1, str2))
 // }
 
+// package main
+
+// import (
+// 	"fmt"
+// 	"strings"
+// )
+
+// func main() {
+// 	str5 := "Hello, Golang"
+// 	fmt.Println(strings.Replace(str5, "Golang", "Yummylack", 1))
+// }
+
+// package main
+
+// import (
+// 	"fmt"
+// 	"strings"
+// )
+
+// func main() {
+// 	str7 := "British Bull Dog"
+// 	fmt.Println(strings.ToUpper(str7))
+// 	fmt.Println(strings.ToLower(str7))
+// }                                                to change strings from uppercae to lowercase
+
+// package main
+
+// import (
+// 	"fmt"
+// 	"strings"
+// )
+
+// func main() {
+// 	str8 := "Towel is on the floor"
+// 	fmt.Println(strings.Contains(str8, "police"))
+// 	fmt.Println(strings.Contains(str8, "floor"))
+// }
